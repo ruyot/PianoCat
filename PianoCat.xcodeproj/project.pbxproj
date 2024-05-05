@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AA8BC3B2BE5E0DF00C36E8E /* PianoCatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8BC3A2BE5E0DF00C36E8E /* PianoCatApp.swift */; };
+		6AA8BC3D2BE5E0DF00C36E8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8BC3C2BE5E0DF00C36E8E /* ContentView.swift */; };
+		6AA8BC3F2BE5E0E100C36E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA8BC3E2BE5E0E100C36E8E /* Assets.xcassets */; };
+		6AA8BC432BE5E0E100C36E8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA8BC422BE5E0E100C36E8E /* Preview Assets.xcassets */; };
+		6AA8BC4D2BE5E0E100C36E8E /* PianoCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8BC4C2BE5E0E100C36E8E /* PianoCatTests.swift */; };
+		6AA8BC572BE5E0E100C36E8E /* PianoCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8BC562BE5E0E100C36E8E /* PianoCatUITests.swift */; };
+		6AA8BC592BE5E0E100C36E8E /* PianoCatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8BC582BE5E0E100C36E8E /* PianoCatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AA8BC492BE5E0E100C36E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA8BC2F2BE5E0DF00C36E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA8BC362BE5E0DF00C36E8E;
+			remoteInfo = PianoCat;
+		};
+		6AA8BC532BE5E0E100C36E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA8BC2F2BE5E0DF00C36E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA8BC362BE5E0DF00C36E8E;
+			remoteInfo = PianoCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AA8BC372BE5E0DF00C36E8E /* PianoCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA8BC3A2BE5E0DF00C36E8E /* PianoCatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoCatApp.swift; sourceTree = "<group>"; };
+		6AA8BC3C2BE5E0DF00C36E8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AA8BC3E2BE5E0E100C36E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AA8BC402BE5E0E100C36E8E /* PianoCat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PianoCat.entitlements; sourceTree = "<group>"; };
+		6AA8BC422BE5E0E100C36E8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AA8BC482BE5E0E100C36E8E /* PianoCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA8BC4C2BE5E0E100C36E8E /* PianoCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoCatTests.swift; sourceTree = "<group>"; };
+		6AA8BC522BE5E0E100C36E8E /* PianoCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA8BC562BE5E0E100C36E8E /* PianoCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoCatUITests.swift; sourceTree = "<group>"; };
+		6AA8BC582BE5E0E100C36E8E /* PianoCatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoCatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AA8BC342BE5E0DF00C36E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA8BC452BE5E0E100C36E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA8BC4F2BE5E0E100C36E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AA8BC2E2BE5E0DF00C36E8E = {
+			isa = PBXGroup;
+			children = (
+				6AA8BC392BE5E0DF00C36E8E /* PianoCat */,
+				6AA8BC4B2BE5E0E100C36E8E /* PianoCatTests */,
+				6AA8BC552BE5E0E100C36E8E /* PianoCatUITests */,
+				6AA8BC382BE5E0DF00C36E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AA8BC382BE5E0DF00C36E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AA8BC372BE5E0DF00C36E8E /* PianoCat.app */,
+				6AA8BC482BE5E0E100C36E8E /* PianoCatTests.xctest */,
+				6AA8BC522BE5E0E100C36E8E /* PianoCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AA8BC392BE5E0DF00C36E8E /* PianoCat */ = {
+			isa = PBXGroup;
+			children = (
+				6AA8BC3A2BE5E0DF00C36E8E /* PianoCatApp.swift */,
+				6AA8BC3C2BE5E0DF00C36E8E /* ContentView.swift */,
+				6AA8BC3E2BE5E0E100C36E8E /* Assets.xcassets */,
+				6AA8BC402BE5E0E100C36E8E /* PianoCat.entitlements */,
+				6AA8BC412BE5E0E100C36E8E /* Preview Content */,
+			);
+			path = PianoCat;
+			sourceTree = "<group>";
+		};
+		6AA8BC412BE5E0E100C36E8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AA8BC422BE5E0E100C36E8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AA8BC4B2BE5E0E100C36E8E /* PianoCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AA8BC4C2BE5E0E100C36E8E /* PianoCatTests.swift */,
+			);
+			path = PianoCatTests;
+			sourceTree = "<group>";
+		};
+		6AA8BC552BE5E0E100C36E8E /* PianoCatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AA8BC562BE5E0E100C36E8E /* PianoCatUITests.swift */,
+				6AA8BC582BE5E0E100C36E8E /* PianoCatUITestsLaunchTests.swift */,
+			);
+			path = PianoCatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AA8BC362BE5E0DF00C36E8E /* PianoCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA8BC5C2BE5E0E100C36E8E /* Build configuration list for PBXNativeTarget "PianoCat" */;
+			buildPhases = (
+				6AA8BC332BE5E0DF00C36E8E /* Sources */,
+				6AA8BC342BE5E0DF00C36E8E /* Frameworks */,
+				6AA8BC352BE5E0DF00C36E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoCat;
+			productName = PianoCat;
+			productReference = 6AA8BC372BE5E0DF00C36E8E /* PianoCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AA8BC472BE5E0E100C36E8E /* PianoCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA8BC5F2BE5E0E100C36E8E /* Build configuration list for PBXNativeTarget "PianoCatTests" */;
+			buildPhases = (
+				6AA8BC442BE5E0E100C36E8E /* Sources */,
+				6AA8BC452BE5E0E100C36E8E /* Frameworks */,
+				6AA8BC462BE5E0E100C36E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA8BC4A2BE5E0E100C36E8E /* PBXTargetDependency */,
+			);
+			name = PianoCatTests;
+			productName = PianoCatTests;
+			productReference = 6AA8BC482BE5E0E100C36E8E /* PianoCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AA8BC512BE5E0E100C36E8E /* PianoCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA8BC622BE5E0E100C36E8E /* Build configuration list for PBXNativeTarget "PianoCatUITests" */;
+			buildPhases = (
+				6AA8BC4E2BE5E0E100C36E8E /* Sources */,
+				6AA8BC4F2BE5E0E100C36E8E /* Frameworks */,
+				6AA8BC502BE5E0E100C36E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA8BC542BE5E0E100C36E8E /* PBXTargetDependency */,
+			);
+			name = PianoCatUITests;
+			productName = PianoCatUITests;
+			productReference = 6AA8BC522BE5E0E100C36E8E /* PianoCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AA8BC2F2BE5E0DF00C36E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					6AA8BC362BE5E0DF00C36E8E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					6AA8BC472BE5E0E100C36E8E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 6AA8BC362BE5E0DF00C36E8E;
+					};
+					6AA8BC512BE5E0E100C36E8E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 6AA8BC362BE5E0DF00C36E8E;
+					};
+				};
+			};
+			buildConfigurationList = 6AA8BC322BE5E0DF00C36E8E /* Build configuration list for PBXProject "PianoCat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AA8BC2E2BE5E0DF00C36E8E;
+			productRefGroup = 6AA8BC382BE5E0DF00C36E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AA8BC362BE5E0DF00C36E8E /* PianoCat */,
+				6AA8BC472BE5E0E100C36E8E /* PianoCatTests */,
+				6AA8BC512BE5E0E100C36E8E /* PianoCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AA8BC352BE5E0DF00C36E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA8BC432BE5E0E100C36E8E /* Preview Assets.xcassets in Resources */,
+				6AA8BC3F2BE5E0E100C36E8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA8BC462BE5E0E100C36E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA8BC502BE5E0E100C36E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AA8BC332BE5E0DF00C36E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA8BC3D2BE5E0DF00C36E8E /* ContentView.swift in Sources */,
+				6AA8BC3B2BE5E0DF00C36E8E /* PianoCatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA8BC442BE5E0E100C36E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA8BC4D2BE5E0E100C36E8E /* PianoCatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA8BC4E2BE5E0E100C36E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA8BC592BE5E0E100C36E8E /* PianoCatUITestsLaunchTests.swift in Sources */,
+				6AA8BC572BE5E0E100C36E8E /* PianoCatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AA8BC4A2BE5E0E100C36E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AA8BC362BE5E0DF00C36E8E /* PianoCat */;
+			targetProxy = 6AA8BC492BE5E0E100C36E8E /* PBXContainerItemProxy */;
+		};
+		6AA8BC542BE5E0E100C36E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AA8BC362BE5E0DF00C36E8E /* PianoCat */;
+			targetProxy = 6AA8BC532BE5E0E100C36E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AA8BC5A2BE5E0E100C36E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AA8BC5B2BE5E0E100C36E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6AA8BC5D2BE5E0E100C36E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PianoCat/PianoCat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PianoCat/Preview Content\"";
+				DEVELOPMENT_TEAM = AX43467ZQ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pianocatstudios.PianoCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AA8BC5E2BE5E0E100C36E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PianoCat/PianoCat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PianoCat/Preview Content\"";
+				DEVELOPMENT_TEAM = AX43467ZQ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pianocatstudios.PianoCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AA8BC602BE5E0E100C36E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pianocatstudios.PianoCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoCat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PianoCat";
+			};
+			name = Debug;
+		};
+		6AA8BC612BE5E0E100C36E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pianocatstudios.PianoCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoCat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PianoCat";
+			};
+			name = Release;
+		};
+		6AA8BC632BE5E0E100C36E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pianocatstudios.PianoCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoCat;
+			};
+			name = Debug;
+		};
+		6AA8BC642BE5E0E100C36E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pianocatstudios.PianoCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoCat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AA8BC322BE5E0DF00C36E8E /* Build configuration list for PBXProject "PianoCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA8BC5A2BE5E0E100C36E8E /* Debug */,
+				6AA8BC5B2BE5E0E100C36E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA8BC5C2BE5E0E100C36E8E /* Build configuration list for PBXNativeTarget "PianoCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA8BC5D2BE5E0E100C36E8E /* Debug */,
+				6AA8BC5E2BE5E0E100C36E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA8BC5F2BE5E0E100C36E8E /* Build configuration list for PBXNativeTarget "PianoCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA8BC602BE5E0E100C36E8E /* Debug */,
+				6AA8BC612BE5E0E100C36E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA8BC622BE5E0E100C36E8E /* Build configuration list for PBXNativeTarget "PianoCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA8BC632BE5E0E100C36E8E /* Debug */,
+				6AA8BC642BE5E0E100C36E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AA8BC2F2BE5E0DF00C36E8E /* Project object */;
+}
